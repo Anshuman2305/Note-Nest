@@ -47,9 +47,9 @@ function Mainbody({ mcaProducts, gateProducts }) {
 
             {/*Mca Notes Card*/}
 
-            <div className="flex flex-col md:flex-row justify-center mt-4 sm:mt-12 min-w-[100%] lg:max-h-[40%] gap-8 p-4">
+            <div className="flex flex-col md:flex-row justify-center sm:mt-12 min-w-[100%] lg:max-h-[40%] gap-8 p-4 pt-8 sm:p-0 ">
                 <Jumpreveal >
-                    <div className="bg-[#f1f8ff] sm:bg-white shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] rounded-2xl max-h-96 grow-1">
+                    <div className="bg-[#f1f8ff] sm:bg-white shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] rounded-2xl max-h-96 sm:max-h-72 grow-1">
                         <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db]">
                             <h2 className="font-CSN text-2xl lg:text-3xl text-slate-800">MCA Notes</h2>
                         </div>
@@ -69,7 +69,7 @@ function Mainbody({ mcaProducts, gateProducts }) {
                 </Jumpreveal>
                 {/*Gate Notes Card*/}
                 <Jumpreveal >
-                <div className="relative bg-[#f1f8ff] sm:bg-white rounded-2xl shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] max-h-96 lg:min-w-80">
+                <div className="relative bg-[#f1f8ff] sm:bg-white rounded-2xl shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] max-h-96 sm:max-h-72 lg:min-w-80">
                     <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db]">
                         <h2 className="font-CSN text-2xl lg:text-3xl text-slate-800">Recorded Lectures</h2>
                     </div>
