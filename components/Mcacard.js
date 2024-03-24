@@ -20,7 +20,7 @@ function Mcacard({ mcaobj }) {
       className="flex bg-[#f6faff] sm:bg-[#e2f0ff] 
     shadow-sm border-[1px] border-[#b4c7db] sm:border-[#cfe1f5] rounded-2xl p-4 gap-4
      hover:bg-[#D4E8FD] hover:sm:bg-[#cfe1f5] dark:bg-[#353535] dark:border-[#353535] 
-     dark:hover:bg-[#424242] dark:drop-shadow-xl dark:bg-gradient-to-bl dark:from-[#242424]"
+     dark:drop-shadow-xl dark:bg-gradient-to-bl dark:from-[#242424] dark:hover:bg-[#474747] "
     >
       <div className="flex flex-col justify-around w-full">
         <div className="flex flex-row justify-between">

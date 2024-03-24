@@ -18,7 +18,7 @@ function Gatecard({ gateobj }) {
       <div
         className="border-[1px] bg-[#f6faff] border-[#b4c7db] sm:border-[#cfe1f5] rounded-xl p-4
              sm:bg-[#e2f0ff] -z-1 hover:bg-[#D4E8FD] hover:sm:bg-[#cfe1f5] dark:bg-[#353535] dark:border-[#353535] 
-             dark:hover:bg-[#424242] dark:drop-shadow-xl dark:bg-gradient-to-bl dark:from-[#242424]"
+             dark:hover:bg-[#474747] dark:drop-shadow-xl dark:bg-gradient-to-bl dark:from-[#242424]"
       >
         <div className="flex flex-row justify-between gap-1">
           <p className="text-sm font-semibold text-slate-800 self-center sm:line-clamp-1 dark:text-[#C8C8C8]">

@@ -1,7 +1,7 @@
 
 module.exports = {
   api: {
-    projectId: '4dksaxwy',
+    projectId: process.env.SANITY_PROJECT_ID,
     dataset: 'production',
   },
 };
