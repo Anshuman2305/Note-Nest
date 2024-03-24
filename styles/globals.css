@@ -23,3 +23,15 @@
   body {
     background-color: #f1f8ff;
   }
+
+  @media screen and (min--moz-device-pixel-ratio: 1.25),
+       screen and (-o-min-device-pixel-ratio: 5/4),
+       screen and (-webkit-min-device-pixel-ratio: 1.25),
+       screen and (min-resolution: 120dpi) {
+  /* CSS for zoom level 125% */
+  html, body {
+    zoom: 0.9; /* Adjust zoom level to counteract the 125% zoom */
+    height: 110vh; /* Adjust height to fit 100vh at 125% zoom */
+  }
+  
+}

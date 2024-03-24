@@ -15,6 +15,12 @@ module.exports = {
       fontFamily: {
         'CSN': ['CSN','sans'],
       },
+      screens: {
+        '125%': {'raw': '(min--moz-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi)'}
+      },
+      spacing: {
+        '125vh': '125vh', // Customize spacing for 125% zoom level
+      },
     },
   },
   plugins: [],
