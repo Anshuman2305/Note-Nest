@@ -4,6 +4,7 @@ import Mcacard from '../components/Mcacard'
 import Gatecard from '../components/Gatecard'
 import { motion } from "framer-motion";
 
+
 const Jumpreveal = ({ children }) => {
     
     return (
