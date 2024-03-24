@@ -30,9 +30,9 @@ function Mainbody({ mcaProducts, gateProducts }) {
     return (
         <>
             <Jumpreveal >
-                <div className="relative flex flex-row min-w-[100%] sm:bg-gradient-to-r from-[#ffffff] to-[#D4E8FD] border-[1px] sm:border-[#b4c7db] overflow-hidden sm:rounded-3xl sm:shadow-lg mt-4 sm:mt-10 sm:min-h-64">
-                    <div className="flex flex-col p-8 z-10">
-                        <h1 className="font-CSN text-6xl sm:text-8xl">Note Nest</h1>
+                <div className="relative flex flex-row min-w-[100%] sm:bg-gradient-to-r from-[#ffffff] to-[#D4E8FD] border-[1px] sm:border-[#b4c7db] overflow-hidden sm:rounded-3xl sm:shadow-lg mt-4 sm:mt-10 sm:max-h-[40vh] sm:min-h-fir">
+                    <div className="flex flex-col px-8 pb-4 z-10">
+                        <h1 className="font-CSN text-6xl sm:text-6xl lg:text-8xl">Note Nest</h1>
                         <h3 className="font-CSN text-2xl lg:text-3xl sm:max-w-[60%] leading-6 text-justify">Step into My <code className="font-CSN text-2xl bg-[#D4E8FD] text-[#2D3D4D] rounded-sm py-1 px-2">Digital Notebook</code> : Your Gateway to My Personal Insights and Musings!</h3>
                     </div>
                     <Image className="absolute sm:left-[55%] top-[-10%] hidden sm:block"
