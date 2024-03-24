@@ -4,7 +4,7 @@ import Mcacard from '../components/Mcacard'
 import Gatecard from '../components/Gatecard'
 import { motion } from "framer-motion";
 
-const ReusableAnimation = ({ children }) => {
+const Jumpreveal = ({ children }) => {
     
     return (
         <motion.div
@@ -23,11 +23,13 @@ const ReusableAnimation = ({ children }) => {
 };
 
 
+
+
 function Mainbody({ mcaProducts, gateProducts }) {
 
     return (
         <>
-            <ReusableAnimation >
+            <Jumpreveal >
                 <div className="relative flex flex-row min-w-[100%] sm:bg-gradient-to-r from-[#ffffff] to-[#D4E8FD] border-[1px] sm:border-[#b4c7db] overflow-hidden sm:rounded-3xl sm:shadow-lg mt-4 sm:mt-10 sm:min-h-64">
                     <div className="flex flex-col p-8 z-10">
                         <h1 className="font-CSN text-6xl sm:text-8xl">Note Nest</h1>
@@ -40,13 +42,13 @@ function Mainbody({ mcaProducts, gateProducts }) {
                         height={400}
                     />
                 </div>
-            </ReusableAnimation>
+            </Jumpreveal>
 
 
             {/*Mca Notes Card*/}
 
             <div className="flex flex-col md:flex-row justify-center mt-4 sm:mt-12 min-w-[100%] lg:max-h-[40%] gap-8 p-4">
-                <ReusableAnimation >
+                <Jumpreveal >
                     <div className="bg-[#f1f8ff] sm:bg-white shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] rounded-2xl max-h-96 grow-1">
                         <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db]">
                             <h2 className="font-CSN text-2xl lg:text-3xl text-slate-800">MCA Notes</h2>
@@ -64,9 +66,9 @@ function Mainbody({ mcaProducts, gateProducts }) {
 
                         </div>
                     </div>
-                </ReusableAnimation>
+                </Jumpreveal>
                 {/*Gate Notes Card*/}
-                <ReusableAnimation >
+                <Jumpreveal >
                 <div className="relative bg-[#f1f8ff] sm:bg-white rounded-2xl shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] max-h-96 lg:min-w-80">
                     <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db]">
                         <h2 className="font-CSN text-2xl lg:text-3xl text-slate-800">Recorded Lectures</h2>
@@ -83,7 +85,7 @@ function Mainbody({ mcaProducts, gateProducts }) {
                         }
                     </div>
                 </div>
-                </ReusableAnimation>
+                </Jumpreveal>
             </div>
         </>
     )
