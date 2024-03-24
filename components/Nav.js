@@ -24,7 +24,7 @@ function Nav() {
     return (
         <div className="w-[100%]">
         <Slidereveal>
-        <div className="flex flex-row justify-between w-[100%] items-center mt-4 sm:mt-4 px-4 lg:px-14">
+        <div className="nav flex flex-row justify-between w-[100%] items-center py-4 px-4 lg:px-14">
             <div>
                 <p className="sm:text-2xl text-[#1a2838] p-3 border-[1px] border-[#b4c7db] rounded-2xl bg-[#D4E8FD]">NN</p>
             </div>

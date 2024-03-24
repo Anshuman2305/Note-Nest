@@ -30,7 +30,7 @@ function Mainbody({ mcaProducts, gateProducts }) {
     return (
         <>
             <Jumpreveal >
-                <div className="relative flex flex-row min-w-[100%] sm:bg-gradient-to-r from-[#ffffff] to-[#D4E8FD] border-[1px] sm:border-[#b4c7db] overflow-hidden sm:rounded-3xl sm:shadow-lg mt-4 sm:mt-10 py-8 sm:py-12 px-4">
+                <div className="relative flex flex-row min-w-[100%] sm:bg-gradient-to-r from-[#ffffff] to-[#D4E8FD] border-[1px] sm:border-[#b4c7db] overflow-hidden sm:rounded-3xl sm:shadow-lg py-8 sm:py-12 px-4">
                     <div className="flex flex-col px-4 sm:px-8 pb-4 z-10">
                         <h1 className="font-CSN text-6xl sm:text-6xl lg:text-8xl">Note Nest</h1>
                         <h3 className="font-CSN text-2xl lg:text-3xl sm:max-w-[50%] leading-6 text-justify">Step into My <code className="font-CSN text-2xl bg-[#D4E8FD] text-[#2D3D4D] rounded-sm py-1 px-2">Digital Notebook</code> : Your Gateway to My Personal Insights and Musings!</h3>
@@ -47,7 +47,7 @@ function Mainbody({ mcaProducts, gateProducts }) {
 
             {/*Mca Notes Card*/}
 
-            <div className="flex flex-col md:flex-row justify-center sm:mt-12 min-w-[100%] lg:max-h-[40%] gap-8 p-4 pt-8 sm:p-0 ">
+            <div className="flex flex-col md:flex-row justify-center min-w-[100%] lg:max-h-[40%] gap-8 p-4 pt-8 sm:p-0 sm:py-8">
                 <Jumpreveal >
                     <div className="bg-[#f1f8ff] sm:bg-white shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] rounded-2xl max-h-96 sm:max-h-72 grow-1">
                         <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db]">

@@ -7,7 +7,7 @@ import { client } from '@/lib/sanity'
 
 function Home({ mcaProducts, gateProducts }) {
   return (
-    <main className="flex flex-col justify-between items-center md:h-[100vh] max-w-[100vw] sm:max-w-[90vw] xl:max-w-[50vw] mx-auto">
+    <main className="flex flex-col items-center md:h-[100vh] max-w-[100vw] sm:max-w-[90vw] xl:max-w-[50vw] mx-auto sm:gap-4">
       <Nav />
       <Mainbody mcaProducts={mcaProducts} gateProducts={gateProducts}/>
       <Footer />
