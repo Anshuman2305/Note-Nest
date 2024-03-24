@@ -70,7 +70,7 @@ function Mainbody({ mcaProducts, gateProducts }) {
                 {/*Gate Notes Card*/}
                 <Jumpreveal >
                 <div className="relative bg-[#f1f8ff] sm:bg-white rounded-2xl shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] max-h-96 sm:max-h-80 lg:max-h-72 lg:min-w-80">
-                    <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db]">
+                    <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db] z-20">
                         <h2 className="font-CSN text-2xl lg:text-3xl text-slate-800">Recorded Lectures</h2>
                     </div>
                     <div className="flex flex-col my-6 gap-4 px-4 min-w-72">

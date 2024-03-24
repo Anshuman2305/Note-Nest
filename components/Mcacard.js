@@ -19,7 +19,7 @@ function Mcacard({mcaobj}) {
       <div className="flex flex-col justify-around w-full">
         <div className="flex flex-row justify-between">
           <p className="text-xs text-slate-600 bg-[#edf5ff] py-1 px-2 rounded-full font-medium border-[1px] border-[#cfe1f5] drop-shadow-sm">{mcaobj.subject}</p>
-          <p className="text-xs text-slate-600 bg-[#edf5ff] py-1 px-2 rounded-full font-medium border-[1px] border-[#cfe1f5] drop-shadow-sm">{format(mcaobj._updatedAt)}</p>
+          <p className="text-xs text-slate-600 bg-[#edf5ff] py-1 px-2 rounded-full font-medium border-[1px] border-[#cfe1f5] drop-shadow-sm">Last Updated : {format(mcaobj._updatedAt)}</p>
         </div>
         <p className="font-semibold pt-2 px-2 text-slate-800 text-sm line-clamp-1 sm:line-clamp-none">{mcaobj.title}</p>
       </div>
