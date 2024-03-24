@@ -2,10 +2,7 @@ import React from 'react'
 
 function Mcacard({mcaobj}) {
   return (
-    <a href={mcaobj.link} target='blank' className="flex flex-row sm:bg-slate-200 border-[1px] sm:border-slate-300 rounded-2xl p-4 gap-4 hover:bg-slate-200 hover:sm:bg-slate-300">
-      <div className="justify-center items-center hidden sm:block">
-        <p className="rounded-full p-2 border-[1px] border-slate-800 text-slate-800 text-sm">CA</p>
-      </div>
+    <a href={mcaobj.link} target='blank' className="flex bg-[#f6faff] sm:bg-[#e2f0ff] shadow-sm border-[1px] border-[#b4c7db] sm:border-[#cfe1f5] rounded-2xl p-4 gap-4 hover:bg-[#D4E8FD] hover:sm:bg-[#cfe1f5]">
       <div className="flex flex-col justify-around w-full">
         <div className="flex flex-row justify-between">
           <p className="text-xs text-slate-800">{mcaobj.subject}</p>
