@@ -50,7 +50,7 @@ function Mainbody({ mcaProducts, gateProducts }) {
             <div className="flex flex-col md:flex-row justify-center min-w-[100%] lg:max-h-[40%] gap-8 p-4 pt-8 sm:p-0 sm:py-8">
                 <Jumpreveal >
                     <div className="bg-[#f1f8ff] sm:bg-white shadow-sm sm:shadow-lg overflow-scroll no-scrollbar border-[1px] border-[#b4c7db] rounded-2xl max-h-96 sm:max-h-72 grow-1">
-                        <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db]">
+                        <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db] z-20">
                             <h2 className="font-CSN text-2xl lg:text-3xl text-slate-800">MCA Notes</h2>
                         </div>
                         <div className="flex flex-col my-6 gap-4 px-4">
@@ -73,7 +73,7 @@ function Mainbody({ mcaProducts, gateProducts }) {
                     <div className="sticky top-0 bg-[#D4E8FD] py-2 px-8 sm:bg-opacity-50 sm:backdrop-blur-md border-b-[1px] border-[#b4c7db]">
                         <h2 className="font-CSN text-2xl lg:text-3xl text-slate-800">Recorded Lectures</h2>
                     </div>
-                    <div className="flex flex-col my-6 gap-4 px-4">
+                    <div className="flex flex-col my-6 gap-4 px-4 min-w-72">
                         {
                             gateProducts.map(gateproduct => {
                                 return (
