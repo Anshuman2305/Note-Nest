@@ -15,12 +15,6 @@ export default defineType({
       title: 'Link',
       type: 'string',
     }),
-    defineField({
-      name: 'uploadDate',
-      title: 'Upload Date',
-      type: 'datetime',
-    }),
-   
   ],
  
 })

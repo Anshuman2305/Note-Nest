@@ -18,8 +18,21 @@ function Home({ mcaProducts, gateProducts }) {
 export default Home
 
 export async function getStaticProps() {
-  const mcaProducts = await client.fetch(`*[_type == "mca"] | order(_createdAt desc)`);
-  const gateProducts = await client.fetch(`*[_type == "gate"] | order(_createdAt desc)`);
+
+  const mcaProducts = await client.fetch(`*[_type == "mca"]{
+    title,
+    _id,
+    _updatedAt,
+    link,
+    subject
+  } | order(_updatedAt desc)`);
+
+  const gateProducts = await client.fetch(`*[_type == "gate"]{
+    title,
+    _id,
+    _updatedAt,
+    link,
+  } | order(_updatedAt desc)`);
 
 
   return {
@@ -27,6 +40,6 @@ export async function getStaticProps() {
       mcaProducts,
       gateProducts
     },
-    revalidate: 1, // refetch content as soon as possible
+    revalidate: 60, // refetch content as soon as possible
   };
 }
