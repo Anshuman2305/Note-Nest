@@ -21,7 +21,7 @@ function Recordcard({ gateobj }) {
              dark:hover:bg-[#474747] dark:drop-shadow-xl dark:bg-gradient-to-bl dark:from-[#242424]"
       >
         <div className="flex flex-row justify-between gap-1 sm:gap-3">
-          <p className="text-sm font-semibold text-slate-800 self-center line-clamp-1 dark:text-[#C8C8C8]">
+          <p className="text-sm font-semibold text-slate-800 self-center truncate dark:text-[#C8C8C8]">
             {gateobj.title}
           </p>
           <p
