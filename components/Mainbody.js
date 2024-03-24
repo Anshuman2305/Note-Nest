@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Mcacard from "../components/Mcacard";
-import Gatecard from "../components/Gatecard";
+import Recordcard from "./Recordcard";
 import { motion } from "framer-motion";
 
 const Jumpreveal = ({ children }) => {
@@ -97,7 +97,7 @@ function Mainbody({ mcaProducts, gateProducts }) {
               {gateProducts.map((gateproduct) => {
                 return (
                   <div key={gateproduct._id}>
-                    <Gatecard gateobj={gateproduct} />
+                    <Recordcard gateobj={gateproduct} />
                   </div>
                 );
               })}

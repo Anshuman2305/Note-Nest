@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'nextnote',
 
-  projectId: process.env.SANITY_PROJECT_ID,
+  projectId: '4dksaxwy',
   dataset: 'production',
   basePath: "/admin",
 

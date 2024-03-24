@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
-  name: 'gate',
-  title: 'GATE',
+  name: 'recordclass',
+  title: 'Recorded Class',
   type: 'document',
   fields: [
     defineField({

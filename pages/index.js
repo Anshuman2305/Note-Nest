@@ -27,7 +27,7 @@ export async function getStaticProps() {
     subject
   } | order(_updatedAt desc)`);
 
-  const gateProducts = await client.fetch(`*[_type == "gate"]{
+  const gateProducts = await client.fetch(`*[_type == "recordclass"]{
     title,
     _id,
     _updatedAt,

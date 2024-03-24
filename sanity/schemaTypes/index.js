@@ -1,4 +1,4 @@
-import gate from './gate'
+import recordclass from './record'
 import mca from './mca'
 
-export const schemaTypes = [mca, gate]
+export const schemaTypes = [mca, recordclass]
