@@ -37,7 +37,7 @@ function Mcacard({ mcaobj }) {
             Last Updated : {format(mcaobj._updatedAt)}
           </p>
         </div>
-        <p className="font-semibold pt-2 px-2 text-slate-800 text-sm truncate dark:text-[#C8C8C8] dark:drop-shadow-lg">
+        <p className="font-semibold pt-2 px-2 text-slate-800 text-sm line-clamp-1 dark:text-[#C8C8C8] dark:drop-shadow-lg">
           {mcaobj.title}
         </p>
       </div>
