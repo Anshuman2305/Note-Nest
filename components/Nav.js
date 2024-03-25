@@ -43,7 +43,8 @@ function Nav() {
               Contact
             </a>
             <a
-              href=""
+              href="https://anshuman-mohanty.vercel.app/"
+              target="_blank"
               className=" px-4 py-1 rounded-lg text-sm text-[#1a2838] border-[1px] border-[#b4c7db] hover:bg-[#a5cdff]
                hover:border-[#a5cdff] bg-[#D4E8FD] dark:text-[#fff] dark:border-[#393939] dark:hover:bg-[#393939]
                 dark:hover:border-[#646464] dark:bg-[#242424]"
