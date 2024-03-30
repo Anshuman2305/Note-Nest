@@ -34,13 +34,13 @@ function Nav() {
           </div>
           <div className="flex flex-row gap-4">
             <a
-              href="https://wa.me/919669753104"
+              href="https://www.linkedin.com/in/anshuman2305/"
               target="_blank"
               className="px-4 py-1 rounded-lg text-sm text-[#1a2838] dark:text-[#fff] border-[1px] border-[#b4c7db]
                dark:border-[#393939] hover:bg-[#a5cdff] dark:hover:bg-[#393939] hover:border-[#a5cdff] dark:hover:border-[#646464]
                 bg-[#D4E8FD] dark:bg-[#242424]"
             >
-              Contact
+              Connect
             </a>
             <a
               href="https://anshuman-mohanty.vercel.app/"
